@@ -1,0 +1,64 @@
+Privacy Policy for BoltMobile IDE
+Effective Date: September 21, 2026
+Last Updated: September 21, 2026
+
+1. Introduction
+Welcome to BoltMobile IDE ("we", "our", or "us"), developed and maintained by TechHamara. We are deeply committed to respecting and protecting your privacy and your personal data. 
+
+This Privacy Policy explains how BoltMobile IDE ("Application" or "App") handles user information, the permissions required for its functionality, and how we comply with the Google Play Developer Program Policies, including the Google Play Data Safety requirements.
+
+2. Summary of Key Principles
+- Local-First Architecture: BoltMobile IDE operates locally on your device. Your project source code, assets, keystores, and compiled extension files (.aix) are processed and stored exclusively on your device.
+- Zero Personal Data Collection: We do not collect, transmit, store, sell, or track any personally identifiable information (such as your name, email, phone number, location, contacts, or financial details).
+- No Telemetry or Advertising Trackers: We do not integrate third-party advertising, tracking, or profiling SDKs.
+- Transparent Network Usage: Internet access is used strictly and exclusively for user-initiated network actions (such as downloading Maven dependencies or performing Git operations).
+
+3. Information We Collect and Process
+a. Project and File Data:
+All files created, opened, edited, or compiled using BoltMobile IDE (including Java, Kotlin, XML, AIDL, YML, C/C++ native libraries, and compiled .aix binaries) reside solely in the workspace folder selected by you on your local storage or within the app's private sandbox directory. We do not transmit or mirror your source code or compiled extensions to any external server.
+
+b. Ephemeral Compilation Data:
+During the build and compilation process, temporary files and intermediate bytecode are processed in local cache memory and deleted or refreshed as needed. No project contents are transmitted externally during compilation.
+
+c. Network Requests:
+When you perform actions that require network access:
+- Maven Dependency Sync: When you specify dependencies in your `bolt.yml` or use the Visual Dependency Manager, the IDE makes direct HTTPS requests to public repository endpoints (e.g., Maven Central, JitPack) to download required .jar or .aar packages directly to your device's `deps/` folder.
+- Git Operations: If you use Git features (e.g., clone, pull, push), the app connects directly to the Git remote URL specified by you.
+No personal information or user identifiers are attached to these requests.
+
+4. Permissions and Justifications
+BoltMobile IDE requests only the minimal set of permissions strictly necessary for core development functionality:
+
+- android.permission.INTERNET:
+  Purpose: Required to download user-declared external Maven dependencies (e.g., from Maven Central or JitPack) and to perform user-initiated Git operations (e.g., cloning or syncing repositories).
+  
+- android.permission.WRITE_EXTERNAL_STORAGE (maxSdkVersion="28"):
+  Purpose: Strictly restricted to legacy Android versions (Android 9.0 / API 28 and below) to allow creating, reading, and saving project files in your storage. On Android 10 (API 29) and above, this permission is not requested or utilized.
+
+- Scoped Storage / Storage Access Framework (SAF - ACTION_OPEN_DOCUMENT_TREE):
+  Purpose: On modern Android versions (Android 10+ / API 29+), the app uses Android's Storage Access Framework. The app prompts you to pick a specific workspace directory. The app only accesses files inside the directory you explicitly select. It does not request broad storage access (such as MANAGE_EXTERNAL_STORAGE).
+
+5. Google Play Data Safety Alignment
+In accordance with Google Play's Data Safety declaration:
+- Data Collected: None. The app does not collect personal or sensitive user data.
+- Data Shared: None. No user data is transferred to third parties.
+- Data Security: All data is stored locally. Network interactions (Maven sync, Git) utilize secure HTTPS protocols.
+- Data Deletion: Because all data is stored locally on your device, you have complete control over your data. You can delete individual files, entire project folders, or clear all app data at any time through your device's file manager or settings. Uninstalling the app completely removes all internal app cache and private data.
+
+6. Children's Privacy (COPPA Compliance)
+BoltMobile IDE is a software development tool designed for developers and learners. The app is not directed toward children under the age of 13 (or under 16 in the European Economic Area). We do not knowingly collect personal information from children. If you believe that a child has provided us with personal information, please contact us immediately so that we can take appropriate measures.
+
+7. Third-Party Services and Links
+The app may allow you to download libraries from public artifact repositories (such as Maven Central or JitPack) or connect to remote Git repositories (such as GitHub or GitLab). These external services are operated by third parties with their own privacy policies. We encourage you to review their respective privacy practices.
+
+8. Disclaimer of Affiliation
+BoltMobile IDE is an independent development environment created and maintained by TechHamara. It is not affiliated with, authorized, sponsored, or endorsed by MIT (Massachusetts Institute of Technology), MIT App Inventor, Kodular, Niotron, or Google LLC. All trademarks and registered trademarks belong to their respective owners.
+
+9. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time to reflect changes in our practices or applicable legal and regulatory requirements. Any updates will be reflected in this document with a revised "Last Updated" date. We encourage you to review this policy periodically.
+
+10. Contact Us
+If you have any questions, suggestions, or concerns regarding this Privacy Policy or our privacy practices, please contact us:
+- Developer / Organization: TechHamara
+- Email: techhamara91@gmail.com
+- GitHub / Issue Tracker: https://github.com/TechHamara
