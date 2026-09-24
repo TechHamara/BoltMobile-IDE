@@ -9,8 +9,9 @@ Whether you build for **MIT App Inventor**, **Kodular**, or **Niotron**, BoltMob
 ---
 
 ## Check out the App on 👇
-⚡ [PlayStore](https://play.google.com/store/apps/details?id=io.th.boltide)
-
+* ⚡ [PlayStore](https://play.google.com/store/apps/details?id=io.th.boltide)
+* App inventor [Community](https://community.appinventor.mit.edu/t/boltmobile-ide-the-ultimate-on-device-extension-builder-for-app-inventor-and-others-builder/176176?u=techhamara)
+  
 ---
 
 ## 🌟 Comprehensive Feature Overview
@@ -110,4 +111,4 @@ Happy Extension Building! 💻🔥
 
 * 👉 [PayPal](https://www.paypal.com/ncp/payment/9VCDWG3RPH8R8)
 * 👉 [Buymeacoffee](https://buymeacoffee.com/techhamara)
-*  
+*  App inventor [Community](https://community.appinventor.mit.edu/t/boltmobile-ide-the-ultimate-on-device-extension-builder-for-app-inventor-and-others-builder/176176?u=techhamara) 
