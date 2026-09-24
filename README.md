@@ -8,6 +8,11 @@ Whether you build for **MIT App Inventor**, **Kodular**, or **Niotron**, BoltMob
 
 ---
 
+## Check out the App on 👇
+⚡ [PlayStore](https://play.google.com/store/apps/details?id=io.th.boltide)
+
+---
+
 ## 🌟 Comprehensive Feature Overview
 
 BoltMobile IDE brings the full feature set of the legendary **Bolt CLI** to mobile, packed with modern developer tools tailored for on-the-go coding:
