@@ -103,3 +103,11 @@ BoltMobile IDE is built with passion by **TechHamara** to empower the extension 
 *Disclaimer: BoltMobile IDE is an independent open development tool developed by TechHamara. It is not affiliated with, endorsed by, or sponsored by MIT, Kodular, Niotron, or Google LLC.*
 
 Happy Extension Building! 💻🔥
+
+---
+
+## Support and Donation 
+
+* 👉 [PayPal](https://www.paypal.com/ncp/payment/9VCDWG3RPH8R8)
+* 👉 [Buymeacoffee](https://buymeacoffee.com/techhamara)
+*  
